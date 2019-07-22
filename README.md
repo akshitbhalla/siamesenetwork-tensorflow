@@ -20,7 +20,7 @@ The dissimilarity function is defined as <img src="https://latex.codecogs.com/gi
 ## Model
 ![](https://github.com/ardiya/siamesenetwork-tensorflow/raw/master/figure/tensorboard-graph.png)
 The input of these will be image_left, image_right and .
-Our model uses 5 layer of convolutional layer and pooling followed. We do not use fully convolutonal net because convolution operation is faster on GPU(especially using CUDNN). See http://cs231n.github.io/convolutional-networks/#convert for more information on converting FC layer to Conv layer.
+Our model uses 5 layers of convolution, each followed by pooling. We use a fully convolutonal net because convolution operation is faster on GPU(especially using CUDNN). See http://cs231n.github.io/convolutional-networks/#convert for more information on converting FC layer to Conv layer.
 
 ## Run
 Train the model
